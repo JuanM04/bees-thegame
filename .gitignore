@@ -1,2 +1,6 @@
 node_modules
 out
+
+.DS_Store
+.AppleDouble
+.LSOverride
