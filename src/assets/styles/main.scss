@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300i|Pacifico|Source+Sans+Pro:600,700,900');
+@import url('../fa/fontawesome.min.css');
+
+
+
+// Responsive
+@function r($px) {
+  @return 100vh * $px / 1440px;
+}
+
+
+
+$primary: #ffc107; // yellow
+$secondary: #212121; // black
+
+$alt: #ffa000; // darkerr yellow
+$secalt: #fafafa; // white
+
+$light: #ffd54f; // honey (hexs)
+$dark: #ff6f00; // yellow-orange (shadows)
+
+// pxs
+$anchor: r(552px);
+$anchorMini: $anchor / 2 - r(1.25px);
+
+
+
+
+* {
+  font-family: 'Source Sans Pro', sans-serif;
+  color: $secondary;
+}
+
+html, body {
+  margin: 0;
+  height: 100%;
+  overflow: hidden;
+}
+
+body {
+  background-image: url('../images/hex.png');
+  background-color: $primary;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  * {
+    max-width: 50%;
+  }
+}
+
+h1 {
+  font-family: 'Pacifico', sans-serif;
+  text-align: center;
+  font-size: r(200px);
+  font-weight: bold;
+  text-shadow: r(10px) r(10px) $dark;
+}
+
+h2 {
+  position: relative;
+  top: r(-275px);
+  font-family: 'Montserrat', sans-serif;
+  font-size: r(75px);
+  font-weight: normal;
+  font-style: italic;
+  letter-spacing: r(25px);
+  text-shadow: r(2.5px) r(2.5px) $dark;
+  opacity: 0;
+
+  span {
+    color: $dark;
+    text-shadow: r(2.5px) r(2.5px) $secondary;
+  }
+}
+
+
+
+#play {
+  cursor: pointer;
+  background: $secondary;
+  font-size: r(24px);
+  padding: r(10px) r(40px);
+  font-weight: 900;
+  border: 0;
+  border-radius: r(25px);
+  box-shadow: r(2.5px) r(2.5px) $dark;
+  opacity: 0;
+
+  i {
+    margin-left: r(10px);
+  }
+
+  &, & i {
+    text-align: center;
+    color: $primary;
+  }
+}
+
+
+
+#game {
+  visibility: hidden;
+}
+
+h3 {
+  display: inline-block;
+  font-weight: 700;
+  font-size: r(35px);
+  background-color: $secondary;
+  color: $secalt;
+  min-width: $anchor;
+  max-width: $anchor;
+  padding: r(50px);
+  text-align: center;
+  border-radius: r(25px);
+  box-shadow: r(5px) r(5px) $dark;
+  margin-top: r(10px);
+}
+
+#answers {
+  background-color: $secondary;
+  border-radius: r(25px);
+  display: grid;
+  grid-template-rows: $anchorMini $anchorMini;
+  grid-template-columns: $anchorMini $anchorMini;
+  box-shadow: r(3px) r(3px) $dark;
+  min-width: $anchor;
+  max-width: $anchor;
+  min-height: $anchor;
+  max-height: $anchor;
+
+  .answer {
+    background-color: $secondary;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    min-width: $anchor / 2;
+    max-width: $anchor / 2;
+    min-height: $anchor / 2;
+    max-height: $anchor / 2;
+    cursor: pointer;
+
+    p {
+      font-weight: 600;
+      text-align: center;
+      font-size: r(25px);
+      color: $secalt;
+      max-width: 75%;
+    }
+
+
+
+    &:nth-child(1) {
+      border-top-left-radius: r(25px);
+    }
+    &:nth-child(2) {
+      border-top-right-radius: r(25px);
+    }
+    &:nth-child(3) {
+      border-bottom-left-radius: r(25px);
+    }
+    &:nth-child(4) {
+      border-bottom-right-radius: r(25px);
+    }
+
+    &:nth-child(3), &:nth-child(4) {
+      border-top: (1.25px) solid $light;
+    }
+    &:nth-child(1), &:nth-child(3) {
+      border-right: (1.25px) solid $light;
+    }
+    &:nth-child(1), &:nth-child(2) {
+      border-bottom: (1.25px) solid $light;
+    }
+    &:nth-child(2), &:nth-child(4) {
+      border-left: (1.25px) solid $light;
+    }
+  }
+}
+
+
+
+#counter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  i {
+    background-color: $secondary;
+    color: $secalt;
+    box-shadow: r(1.5px) r(1.5px) $dark;
+    min-width: r(30px);
+    min-height: r(30px);
+    border-radius: 50%;
+    text-align: center;
+    line-height: r(30px);
+    vertical-align: middle;
+    padding: r(3px);
+    font-size: r(18px);
+    margin: 0px r(5px);
+  }
+}

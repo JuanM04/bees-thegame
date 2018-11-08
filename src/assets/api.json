@@ -1,0 +1,140 @@
+[
+  {
+    "q": "¿Qué abeja de la colmena NO posee aguijón?",
+    "a": ["La reina", "El zángano", "La obrera", "Todas tienen aguijón"],
+    "t": 1
+  },
+  {
+    "q": "¿Para qué sirve la cera de las abejas?",
+    "a": ["Para refugiarse", "Para conservar la miel", "Para comersela", "Para decorar la colmena"],
+    "t": 1
+  },
+  {
+    "q": "¿Cuánto tiempo duermen las abejas?",
+    "a": ["No duermen", "Entre  2 y 4 horas diarias", "Entre 6 y 8 horas diarias", "Entre 10 y 12 horas diarias"],
+    "t": 0
+  },
+  {
+    "q": "¿Qué distancia puede recorrer una abeja volando durante su vida?",
+    "a": ["Alrededor de 10 kilómetros", "Entre 15 y 30 kilómetros", "Entre 100 y 250 kilómetros", "Hasta 800 kilómetros"],
+    "t": 3
+  },
+  {
+    "q": "¿Por qué las celdillas de la colmena tienen forma hexagonal?",
+    "a": ["Porque el cuerpo de la abeja tiene esa forma", "Porque la miel se almacena de una forma más segura en esas celdas", "Porque es la forma más eficaz de aprovechar el espacio", "No hay motivo; se eligió esa forma por azar"],
+    "t": 2
+  },
+  {
+    "q": "¿Existe algún color que las abejas no puedan distinguir?",
+    "a": ["Sí, ven en blanco y negro", "Sí, el rojo", "Sí, el amarillo", "No, ven todos los colores"],
+    "t": 1
+  },
+  {
+    "q": "¿Cómo se comunican las abejas?",
+    "a": ["Bailando", "Mediante las antenas", "Emitiendo un zumbido con las alas", "Con sonidos, como los humanos"],
+    "t": 0
+  },
+  {
+    "q": "¿A qué temperatura debe estar una colmena?",
+    "a": ["Menos de 15 grados", "23 grados", "37 grados", "45 grados"],
+    "t": 2
+  },
+
+
+
+  {
+    "q": "¿Qué son los zánganos?",
+    "a": ["Las abejas macho de la colmena", "Las abejas protectoras", "Un tipo de panal", "Los caminos de algunas abejas"],
+    "t": 0
+  },
+  {
+    "q": "¿Qué tipos de abeja hay?",
+    "a": ["Reina, zángano y obrera", "Reina, guerrera y obrea", "Zángano, guerrera y obrera", "Ninguno es correcto"],
+    "t": 0
+  },
+  {
+    "q": "¿Cuál es la función de la abeja reina?",
+    "a": ["Encargarse de la organización del panal", "Proteger el panal de amenazas", "Construir el panal", "Matar zánganos"],
+    "t": 0
+  },
+  {
+    "q": "¿Qué hace la varroa que afecta tanto a las abejas?",
+    "a": ["Les produce picazón", "Les corta las patas", "Las deja vulnerables ante otras enfermedades", "Las mata al instante"],
+    "t": 2
+  },
+  {
+    "q": "¿Qué extraen las abejas de la flor?",
+    "a": ["Polen", "Miel", "Néctar", "Cera"],
+    "t": 2
+  },
+  {
+    "q": "¿Puede nacer otra abeja reina en un mismo enjambre?",
+    "a": ["No", "Depende de las abejas obreras", "Solo si les ocupan la colmena", "Solo si la ya existente muere"],
+    "t": 3
+  },
+  {
+    "q": "¿Qué pasaría si las abejas se extinguieran?",
+    "a": ["Se producirían más enfermedades", "Escasearía el agua", "Se morirían las avispas", "Ninguna es correcta"],
+    "t": 3
+  },
+  {
+    "q": "¿Qué pasa cuando una abeja pica a un humano con su aguijón?",
+    "a": ["Abandona su colmena", "Esta muere al intentar retirar su aguijón", "Vuelve a su colmena", "Se come su aguijón"],
+    "t": 1
+  },
+  {
+    "q": "Si una abeja obrera toma el puesto de reina y produce huevos, la colmena pasa a ser una...",
+    "a": ["Zanganera", "Obrera", "Agresiva", "Ninguna es correcta"],
+    "t": 0
+  },
+  {
+    "q": "¿Cuál es la función de la abeja obrera?",
+    "a": ["Proteger la colmena", "Recolectar néctar", "Explorar nuevas zonas", "Todas son correctas"],
+    "t": 3
+  },
+  {
+    "q": "¿De qué se alimentan los zánganos?",
+    "a": ["Azúcar", "Jalea real", "Miel", "Sal"],
+    "t": 2
+  },
+  {
+    "q": "¿De que se alimenta la abeja reina?",
+    "a": ["Abejas", "Néctar", "Jalea Real", "Todas son correctas"],
+    "t": 2
+  },
+  {
+    "q": "¿Cómo se llama el parásito que deja sin defensas a las abejas?",
+    "a": ["Lapiporitilaquis", "Varroa", "Chirpiulin", "Todas son correctas"],
+    "t": 1
+  },
+  {
+    "q": "¿Cómo se llama el nido de las abejas?",
+    "a": ["Panal", "Mantra", "Colmena", "Todas son correctas"],
+    "t": 2
+  },
+  {
+    "q": "¿Cuánto puede vivir una abeja?",
+    "a": ["Depende que abeja sea", "Las abejas no mueren a no ser que la maten", "100 años", "10 años"],
+    "t": 0
+  },
+  {
+    "q": "¿Cuál es el nombre científico de las abejas?",
+    "a": ["Araneae", "Anthophila", "Formicidae", "Culicidae"],
+    "t": 1
+  },
+  {
+    "q": "¿Cuáles son las abejas que defienden los panales?",
+    "a": ["Las abejas obreras", "Los zánganos", "La reina", "La colmena tiene otro sistema de defensa"],
+    "t": 0
+  },
+  {
+    "q": "¿Cuánto tiempo vive una abeja obrera?",
+    "a": ["Entre 1 y 3 meses", "Entre 4 y 6 meses", "Entre 6 y 12 meses", "Ninguna de las anteriores"],
+    "t": 0
+  },
+  {
+    "q": "¿Cuánto puede vivir una abeja reina?",
+    "a": ["Entre 3 y 6 meses", "Entre 9 y 12 meses", "Entre 1 y 2 años", "Entre  2 y 3 años"],
+    "t": 3
+  }
+]
