@@ -71,6 +71,13 @@
 		"oAP": "/out/bees-win32-ia32.RELEASE-2-MINI.zip",
 		"oF": 0
 		},
+	"/out/bees-win32-ia32.RELEASE_1.2_.zip": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/out/bees-win32-ia32.RELEASE_1.2_.zip",
+		"oF": 0
+		},
 	"/out/bees-win32-ia32/api-ms-win-core-console-l1-1-0.dll": {
 		"cB": 0,
 		"ft": 8192,
