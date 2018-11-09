@@ -276,7 +276,7 @@ function finishGame() {
       duration: 2000,
       complete: () => {
         if (state.counter == state.max) {
-          questionH3.innerHTML = "¡Felicitaciones, sos un EXPERTO de las ABEJAS!<br><br><br>Ganaste un FRASCO de MIEL"
+          questionH3.innerHTML = "¡Felicitaciones, sos un EXPERTO de las ABEJAS!<br><br><br>Elegí un PREMIO"
         } else {
           questionH3.innerHTML = "Por desgracia, no ganaste nada, pero espero que hayas aprendido algo c:"
         }
