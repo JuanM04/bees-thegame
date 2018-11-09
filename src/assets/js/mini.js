@@ -41,7 +41,8 @@ function opening() {
     div.addEventListener('mouseout', () => {mouseOut(div)})
     div.addEventListener('click', () => {click(div)})
   }
-  document.addEventListener('mouseup', (ev) => {if(ev.button == 2) alert('Creado por JuanM04')})
+  document.addEventListener('mouseup', (ev) => {if(ev.button == 2) alert('Creado por JuanM04\n\n\nMás información en:\nhttps://github.com/JuanM04/bees-thegame')})
+  document.addEventListener('keydown', (ev) => {if(ev.keyCode == 82) location.reload()})
   anime.timeline()
     .add({
       targets: 'h1',
@@ -302,7 +303,7 @@ function finishGame() {
         easing: 'playBtn'
       },
       begin: () => {
-        playBtn.innerHTML = "REINICIAR <i class='fas fa-undo'></i>"
+        playBtn.innerHTML = "PRESIONA 'R' PARA REINICIAR <i class='fas fa-undo'></i>"
         playBtn.style.visibility = 'visible'
         playBtn.addEventListener('click', () => {
           location.reload()
